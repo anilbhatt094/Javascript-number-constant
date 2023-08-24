@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <title>JavaScript Math Object</title>
+    <body>
+        <script>
+            //isFinite
+           document.writeln(Number.isFinite(5) + "<br>");
+           document.writeln(Number.isFinite('h') + "<br>");
+           document.writeln(Number.isFinite(-5) + "<br>");
+           document.writeln(Number.isFinite(NaN) + "<br>");
+           document.writeln(Number.isFinite(0 , 10) + "<br>");
+           document.writeln(Number.isFinite(0 , 'a') + "<br>");
+           document.writeln(Number.isFinite('h' , 0) + "<br>");
+
+           //isInteger
+           document.write("<h5> isInterger </h5>");
+           document.writeln(Number.isInteger(0) + "<br>");
+           document.writeln(Number.isInteger(-1) + "<br>");
+           document.writeln(Number.isInteger(4.2) + "<br>");
+           document.writeln(Number.isInteger('a') + "<br>");
+
+           //isParseFloat
+           document.write("<h5> is Parsefloat </h5>");
+           document.writeln(Number.parseFloat(5.2) + "<br>");
+           document.writeln(Number.parseInt(4.5) + "<br>");
+
+           //toExponential
+           var a= 2;
+           document.write("<h5> is toExponential </h5>");
+           document.writeln(a.toExponential(2) + "<br>");
+
+           //toFixed
+           document.write("<h5> is toFixed </h5>");
+           document.writeln(Math.PI.toFixed(0) + "<br>");
+
+           //toPrecision
+           document.write("<h5> is toPrecision </h5>");
+           document.writeln(Math.PI.toPrecision(1) + "<br>");
+
+           //toString
+           document.write("<h5> is toString </h5>");
+           document.writeln(a.toString() + "<br>");
+           
+
+
+</script>
+    </body>
+</html>
